@@ -39,6 +39,11 @@ h2.section-title {
   margin-bottom: 20px;
 }
 
+h4.small-text {
+  text-align: center;
+  font-weight: 300;
+}
+
 .promobar {
   background-color: #222340;
   color: #fff;
@@ -325,5 +330,105 @@ footer .contact .social a {
 footer .disclaimer {
   font-size: 10px;
   font-weight: 100;
+}
+
+/* Ecommerce Page*/
+.banner-main-shopping {
+  background: url("../img/shopping-banner.jpg");
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-main-shopping h2.section-title {
+  color: #fff;
+}
+
+.best-solution-info {
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-image: linear-gradient(to right, transparent 50%, #fff 50%), url("../img/best-solution-info.jpg");
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media only screen and (max-width: 990px) {
+  .best-solution-info {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .best-solution-info {
+    background: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.best-solution-info ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.what-we-offer .card-offer {
+  padding: 10px;
+  height: 100%;
+  color: #fff;
+}
+
+.what-we-offer .card-offer img.icon {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.what-we-offer .card-offer p.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.what-we-offer .card-offer p.text {
+  font-size: 16px;
+}
+
+.what-we-offer .blue-1 {
+  background-color: #7378D9;
+}
+
+.what-we-offer .blue-2 {
+  background-color: #656ABF;
+}
+
+.what-we-offer .blue-3 {
+  background-color: #3D4073;
+}
+
+.what-we-offer .blue-4 {
+  background-color: #222340;
+}
+
+.how-to-help .service {
+  border-top: 2px solid #C42031;
+  padding: 10px;
+  height: 100%;
+  background-color: #F8F8F7;
+}
+
+.how-to-help img.icon {
+  height: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.how-to-help p.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.how-to-help p.text {
+  font-size: 16px;
 }
 /*# sourceMappingURL=styles.css.map */
