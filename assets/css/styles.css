@@ -431,4 +431,41 @@ footer .disclaimer {
 .how-to-help p.text {
   font-size: 16px;
 }
+
+.clients-ecom .slider-clients img.icon {
+  height: 80px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+.contact-ecom {
+  background: url("../img/back-contact.jpg");
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-ecom img.logo {
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.contact-ecom h2.subtitle {
+  font-size: 32px;
+  color: #C42031;
+  font-weight: 700;
+}
+
+.contact-ecom p.text {
+  color: #fff;
+}
+
+.contact-ecom .form-label {
+  color: white;
+}
+
+.contact-ecom .form-control {
+  border-radius: 15px;
+}
 /*# sourceMappingURL=styles.css.map */

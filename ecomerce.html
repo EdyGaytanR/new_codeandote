@@ -198,20 +198,61 @@
             </div>
         </div>
     </section>
-    <section class="clients py-5">
+    <section class="clients-ecom py-5">
         <div class="container py-3">
             <h2 class="section-title">Nuestra experiencia</h2>
             <h4 class="small-text">Somos expertos en las herramientas más usadas en el mercado y <br> en ofrecer soluciones adecuadas para cada negocio</h4>
             <div class="slider-clients my-5">
-                <img src="assets/img/clients/mismolenguaje.png" alt="">
-                <img src="assets/img/clients/homicity.png" alt="">
+                <img class="icon" src="assets/img/clients/shopify.png" alt="">
+                <img class="icon" src="assets/img/clients/odoo.png" alt="">
 
-                <img src="assets/img/clients/nonex.png" alt="">
-                <img src="assets/img/clients/homicity.png" alt="">
+                <img class="icon" src="assets/img/clients/woocomerce.png" alt="">
+                <img class="icon" src="assets/img/clients/credit.png" alt="">
+                <img class="icon" src="assets/img/clients/odoo.png" alt="">
+
             </div>
         </div>
     </section>
+    <section class="contact-ecom">
+        <div class="has-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <img src="assets/img/white-logo.png" class="logo" alt="">
+                        <h2 class="subtitle">AVERIGUA QUE SOLUCIÓNES ADECUADA PARATU NEGOCIO</h2>
+                        <p class="text">Dame tus datos y te regaloun diagnóstico de tus necesidades para tu tienda en línea</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="input-nombre" class="form-label">Tu Nombre (requerido)</label>
+                                <input type="text" class="form-control" id="input-nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-email" class="form-label">Tu correo (requerido)</label>
+                                <input type="email" class="form-control" id="input-email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-telefono" class="form-label">Teléfono</label>
+                                <input type="text" class="form-control" id="input-telefono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-telefono" class="form-label">Teléfono</label>
+                                <input type="text" class="form-control" id="input-telefono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-comentarios" class="form-label">Mensaje (requerido)</label>
+                                <textarea class="form-control" placeholder="Mensaje (requerido)" id="input-comentarios" style="height: 100px" required></textarea>
+                            </div>
 
+                            <button type="submit" class="btn-red">ENVIAR</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
     <footer class="py-5">
         <div class="container">
             <div class="row">
@@ -262,7 +303,7 @@
 <script>
     $('.slider-clients').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
         autoplay: true,

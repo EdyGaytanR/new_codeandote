@@ -376,3 +376,39 @@ footer {
         font-size: 16px;
     }
 }
+
+.clients-ecom {
+    .slider-clients {
+        img.icon {
+            height: 80px;
+            object-fit: contain;
+            margin: 10px;
+        }
+    }
+}
+
+.contact-ecom {
+    background: url('../img/back-contact.jpg');
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    img.logo {
+        width: 50%;
+        margin-bottom: 10%;
+    }
+    h2.subtitle {
+        font-size: 32px;
+        color: #C42031;
+        font-weight: 700;
+    }
+    p.text {
+        color: #fff;
+    }
+    .form-label {
+        color: white;
+    }
+    .form-control {
+        border-radius: 15px;
+    }
+}
