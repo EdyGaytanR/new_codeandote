@@ -31,6 +31,16 @@
   border-radius: 5px;
 }
 
+.btn-blue {
+  font-weight: 300;
+  background-color: #3D4073;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
 h2.section-title {
   color: #222340;
   font-size: 38px;
@@ -467,5 +477,191 @@ footer .disclaimer {
 
 .contact-ecom .form-control {
   border-radius: 15px;
+}
+
+/* Ecommerce Page */
+/* WebMobile Page */
+.webmobile-banner {
+  background: url("../img/back-mobile.png");
+  padding: 200px 0;
+  background-size: cover;
+  background-position: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .webmobile-banner {
+    padding: 100px 0;
+  }
+}
+
+.webmobile-banner p.title {
+  font-size: 42px;
+  color: white;
+  text-align: right;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+  .webmobile-banner p.title {
+    text-align: center;
+  }
+}
+
+.webmobile-banner p.text {
+  color: #fff;
+  text-align: right;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  .webmobile-banner p.text {
+    text-align: center;
+  }
+}
+
+.our-mobile-services h4.small-text--red {
+  color: #C42031;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+.our-mobile-services p.subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.our-mobile-services .service-box {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  height: 100%;
+}
+
+.our-mobile-services .service-box p.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.our-mobile-services .service-box img.icon {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.our-experience-mobile {
+  background: url("../img/our-experience.jpg");
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.our-experience-mobile .overlay {
+  background: #20213ff0;
+}
+
+.our-experience-mobile h2.section-title {
+  color: #fff;
+}
+
+.our-experience-mobile .experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-experience-mobile .experience:not(:last-of-type) {
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .our-experience-mobile .experience {
+    margin-bottom: 5%;
+  }
+}
+
+.our-experience-mobile .experience p.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.our-experience-mobile .experience p.text {
+  color: #fff;
+  margin: 0;
+}
+
+.our-experience-mobile .experience img.icon {
+  height: 100%;
+  margin-right: 20px;
+  width: 120px;
+}
+
+.our-clients-mobile .slick-list,
+.our-clients-mobile .slick-track {
+  display: flex;
+}
+
+.our-clients-mobile .client {
+  border: 1px solid black;
+  margin: 0 10px 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.our-clients-mobile .client img.logo {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.our-clients-mobile .client p.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3D4073;
+  text-align: center;
+}
+
+.our-clients-mobile .client p.text {
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-mobile {
+  background: url("../img/back-contact-revert.png");
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-mobile img.logo {
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.contact-mobile h2.subtitle {
+  font-size: 32px;
+  color: #3D4073;
+  font-weight: 700;
+}
+
+.contact-mobile p.text {
+  color: #000;
+}
+
+.contact-mobile form {
+  background: white;
+  padding: 25px;
+}
+
+.contact-mobile form .form-label {
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */
