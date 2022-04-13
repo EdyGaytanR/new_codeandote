@@ -41,6 +41,16 @@
     border-radius: 5px;
 }
 
+.btn-trans {
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 0;
+}
+
 h2.section-title {
     color: #222340;
     font-size: 38px;
@@ -579,6 +589,92 @@ footer {
         padding: 25px;
         .form-label {
             color: #000;
+        }
+    }
+}
+
+
+/* WebMobile Page */
+
+
+/* Contact Page */
+
+.contact-banner {
+    background: url('../img/back-contact.png');
+    padding: 200px 0;
+    background-size: cover;
+    background-position: right;
+    @media only screen and (max-width: 767px) {
+        padding: 100px 0;
+    }
+    p.title {
+        font-size: 42px;
+        color: white;
+        text-align: right;
+        font-weight: 700;
+        @media only screen and (max-width: 767px) {
+            text-align: center;
+        }
+    }
+    p.text {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        @media only screen and (max-width: 767px) {
+            text-align: center;
+        }
+    }
+}
+
+.contact-info {
+    background: #F1F2F2;
+    i {
+        font-size: 42px;
+        color: #7378D9;
+        margin: 10px auto 20px;
+        display: table;
+    }
+    p.info {
+        text-align: center;
+        color: #808285;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+        a {
+            color: #808285;
+            text-decoration: none;
+        }
+    }
+}
+
+.contactform-full {
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #737373;
+        border-radius: 0;
+        color: black;
+    }
+    button.btn-trans {
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+.fullmap {
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.follow-us {
+    .social-media {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        i {
+            font-size: 32px;
+            color: #7378D9;
         }
     }
 }
