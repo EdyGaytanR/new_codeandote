@@ -188,6 +188,12 @@ nav.navbar a.nav-link {
   left: -5px;
 }
 
+.clients img {
+  height: 60px;
+  object-fit: contain;
+  object-position: center;
+}
+
 .expert-tools {
   background-color: #222340;
   color: #fff;
@@ -339,12 +345,8 @@ footer .contact .social {
   gap: 0 5px;
 }
 
-footer .contact .social a {
-  background: white;
-  color: #c41f31;
-  border-radius: 50%;
-  padding: 5px 10px;
-  font-size: 16px;
+footer .contact .social a img {
+  width: 35px;
 }
 
 footer .disclaimer {
@@ -458,6 +460,12 @@ footer .disclaimer {
   margin: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  .clients-ecom .slider-clients img.icon {
+    height: 60px;
+  }
+}
+
 .contact-ecom {
   background: url("../img/back-contact.jpg");
   padding: 100px 0;
@@ -469,6 +477,12 @@ footer .disclaimer {
 .contact-ecom img.logo {
   width: 50%;
   margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-ecom img.logo {
+    width: 100%;
+  }
 }
 
 .contact-ecom h2.subtitle {
@@ -487,6 +501,13 @@ footer .disclaimer {
 
 .contact-ecom .form-control {
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-ecom .btn-red {
+    margin: 0 auto;
+    display: table;
+  }
 }
 
 /* Ecommerce Page */
@@ -549,6 +570,15 @@ footer .disclaimer {
   height: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .our-mobile-services .service-box {
+    margin-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .our-mobile-services .service-box p.title {
   font-size: 20px;
   font-weight: 700;
@@ -557,6 +587,15 @@ footer .disclaimer {
 .our-mobile-services .service-box img.icon {
   height: 70px;
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .our-mobile-services .service-box img.icon {
+    height: auto;
+    height: 90px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
 }
 
 .our-experience-mobile {
@@ -575,21 +614,21 @@ footer .disclaimer {
   color: #fff;
 }
 
+.our-experience-mobile .col-md-6 {
+  margin-bottom: 20px;
+}
+
 .our-experience-mobile .experience {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .our-experience-mobile .experience:not(:last-of-type) {
-    margin-bottom: 15%;
-  }
+  align-items: flex-start;
 }
 
 @media only screen and (max-width: 767px) {
   .our-experience-mobile .experience {
     margin-bottom: 5%;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -599,15 +638,35 @@ footer .disclaimer {
   color: white;
 }
 
+@media only screen and (max-width: 767px) {
+  .our-experience-mobile .experience p.title {
+    text-align: center;
+  }
+}
+
 .our-experience-mobile .experience p.text {
   color: #fff;
   margin: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .our-experience-mobile .experience p.text {
+    text-align: center;
+  }
+}
+
 .our-experience-mobile .experience img.icon {
   height: 100%;
   margin-right: 20px;
-  width: 120px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .our-experience-mobile .experience img.icon {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: 90px;
+  }
 }
 
 .our-clients-mobile .slick-list,
@@ -656,6 +715,12 @@ footer .disclaimer {
   margin-bottom: 10%;
 }
 
+@media only screen and (max-width: 767px) {
+  .contact-mobile img.logo {
+    width: 100%;
+  }
+}
+
 .contact-mobile h2.subtitle {
   font-size: 32px;
   color: #3D4073;
@@ -673,6 +738,13 @@ footer .disclaimer {
 
 .contact-mobile form .form-label {
   color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-mobile form .btn-blue {
+    margin: 0 auto;
+    display: table;
+  }
 }
 
 /* WebMobile Page */

@@ -167,6 +167,11 @@ nav.navbar {
     .slick-prev {
         left: -5px;
     }
+    img {
+        height: 60px;
+        object-fit: contain;
+        object-position: center;
+    }
 }
 
 .expert-tools {
@@ -293,11 +298,9 @@ footer {
             display: flex;
             gap: 0 5px;
             a {
-                background: white;
-                color: #c41f31;
-                border-radius: 50%;
-                padding: 5px 10px;
-                font-size: 16px;
+                img {
+                    width: 35px;
+                }
             }
         }
     }
@@ -403,6 +406,9 @@ footer {
             height: 80px;
             object-fit: contain;
             margin: 10px;
+            @media only screen and (max-width: 767px) {
+                height: 60px;
+            }
         }
     }
 }
@@ -416,6 +422,9 @@ footer {
     img.logo {
         width: 50%;
         margin-bottom: 10%;
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+        }
     }
     h2.subtitle {
         font-size: 32px;
@@ -430,6 +439,12 @@ footer {
     }
     .form-control {
         border-radius: 15px;
+    }
+    .btn-red {
+        @media only screen and (max-width: 767px) {
+            margin: 0 auto;
+            display: table;
+        }
     }
 }
 
@@ -483,6 +498,12 @@ footer {
         padding: 20px;
         display: flex;
         height: 100%;
+        @media only screen and (max-width: 767px) {
+            margin-bottom: 5%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         p.title {
             font-size: 20px;
             font-weight: 700;
@@ -490,6 +511,12 @@ footer {
         img.icon {
             height: 70px;
             margin-right: 20px;
+            @media only screen and (max-width: 767px) {
+                height: auto;
+                height: 90px;
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -506,31 +533,42 @@ footer {
     h2.section-title {
         color: #fff;
     }
+    .col-md-6 {
+        margin-bottom: 20px;
+    }
     .experience {
         display: flex;
         justify-content: center;
-        align-items: center;
-        @media only screen and (min-width: 768px) {
-            &:not(:last-of-type) {
-                margin-bottom: 15%;
-            }
-        }
+        align-items: flex-start;
         @media only screen and (max-width: 767px) {
             margin-bottom: 5%;
+            flex-direction: column;
+            align-items: center;
         }
         p.title {
             font-size: 20px;
             font-weight: 700;
             color: white;
+            @media only screen and (max-width: 767px) {
+                text-align: center;
+            }
         }
         p.text {
             color: #fff;
             margin: 0;
+            @media only screen and (max-width: 767px) {
+                text-align: center;
+            }
         }
         img.icon {
             height: 100%;
             margin-right: 20px;
-            width: 120px;
+            width: 100px;
+            @media only screen and (max-width: 767px) {
+                margin-right: 0px;
+                margin-bottom: 20px;
+                width: 90px;
+            }
         }
     }
 }
@@ -575,6 +613,9 @@ footer {
     img.logo {
         width: 50%;
         margin-bottom: 10%;
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+        }
     }
     h2.subtitle {
         font-size: 32px;
@@ -589,6 +630,12 @@ footer {
         padding: 25px;
         .form-label {
             color: #000;
+        }
+        .btn-blue {
+            @media only screen and (max-width: 767px) {
+                margin: 0 auto;
+                display: table;
+            }
         }
     }
 }
